@@ -1,0 +1,158 @@
+
+.footer 
+{
+    background-color: var(--background-col);
+    padding: 10px;
+    font-family: sans-serif;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-logo 
+{
+    display: flex;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    padding: 10px;
+}
+
+.footer-logo
+{
+    cursor: var(--cursor-1);
+}
+
+.footer-text 
+{
+    font-size: 20px;
+    color: var(--text);
+    display: flex;
+    flex-direction: row;
+}
+
+.verification-popup {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: var(--background-col);
+    padding: 10px;
+}
+
+.verification-popup input[type="text"] {
+    width: 200px;
+    padding: 10px;
+    color: var(--text);
+    background-color: var(--background-col);
+    border-radius: 50px;
+    border: solid 2px var(--nav-search);
+}
+
+.loader {
+    width: 120px;
+    height: 22px;
+    top: 20px;
+    border-radius: 40px;
+    color: var(--text);
+    border: 2px solid;
+    position: relative;
+  }
+  .loader::before {
+    content: "";
+    position: absolute;
+    margin: 2px;
+    width: 25%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: inherit;
+    background: currentColor;
+    animation: l3 1s infinite linear;
+  }
+  @keyframes l3 {
+      50% {left:100%;transform: translateX(calc(-100% - 4px))}
+  }
+
+.enter
+{
+    color:  var(--nav-search);
+    font-size: 28px;
+    cursor: pointer;
+    position: relative;
+    right: 38px;
+    top:6px;
+}
+
+
+.socialmedia-list 
+{
+    position: relative;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding-bottom: 10px;
+}
+
+.socialmedia-list li 
+{
+    margin: 0 15px;
+    font-size: 35px;
+    color: var(--nav-search);
+    transition: color 0.3s;
+}
+
+.service-tag 
+{
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 26px;
+    font-family: "Lilita One", sans-serif;
+    color: var(--footer-tag) ;
+}
+
+.service-list 
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.service-list li 
+{
+    margin:10px;
+    font-size: 18px;
+    color: var(--nav-search);
+    font-family: "Madimi One", sans-serif;
+}
+.footer-bottom
+{
+    border-top: solid var(--nav-search);
+    color: var(--nav-search);
+    padding: 5px;
+    border-width: 2px;
+    text-align: center;
+    font-size: small;
+    font-family:sans-serif;
+}
+.linkedin
+{
+    font-size: 38px;
+}
+.facebook:hover 
+{
+    color: #3b5998;
+}
+.whatsapp:hover 
+{
+    color: #25D366;
+}
+.linkedin:hover 
+{
+    color: #0e76a8;
+}

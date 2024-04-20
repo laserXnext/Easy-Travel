@@ -1,0 +1,80 @@
+*
+{
+    margin:0%;
+    padding:0%;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-image: var(--background-img-main);
+    background-color:#101214;
+    background-position: fixed;
+    background-size: cover;
+    backdrop-filter: blur(5px);
+    background-attachment: fixed;
+    height: 100%;
+    background-repeat:no-repeat;
+    background-position: center;
+    cursor: var(--cursor-5);
+}
+
+:root
+{
+    --background-img-main:url('./src/assets/back_white.png');
+    --background-col:#F1F2F4;
+    --nav-link:#227D9B;
+    --nav-search:#227D9B;
+    --footer-tag:#FF9800;
+    --text:#000;
+    --back-district-col:#eeeff0;
+    --district-txt:#242c3f;
+    --about-head:#9A031E;
+    --about-txt:#5F0F40;
+    --background-hotel:#F1F2F4;
+    --back-banner-img-1:url('./src/assets/back.png');
+    --back-banner-img-2:url('./src/assets/back_pink.png');
+    --back-error:url('./src/assets/back_warning_blur.png');
+    --table-head:#f0f0f0;
+    --table-data:#f9f9f9;
+    --button-col:#4c82af;
+    --button-col-hover:#3e6f9f;
+    --border-col:#ddd;
+    --form-col:#f9f9f9;
+    --form-fill-col:#fff;
+    --available-btn:#2fb2dd;
+    --cursor-1:url('http://localhost:5173/src/assets/cursor/cursor_1.png') , auto;
+    --cursor-2:url('http://localhost:5173/src/assets/cursor/cursor_2.png') , auto;
+    --cursor-3:url('http://localhost:5173/src/assets/cursor/cursor_3.png') , auto;
+    --cursor-4:url('http://localhost:5173/src/assets/cursor/cursor_4.png') , auto;
+    --cursor-5:url('http://localhost:5173/src/assets/cursor/cursor_5.png') , auto;
+    --cursor-6:url('http://localhost:5173/src/assets/cursor/cursor_6.png') , auto;
+    --cursor-7:url('http://localhost:5173/src/assets/cursor/cursor_7.png') , auto;
+}
+
+[data-theme="dark"]
+{
+    --background-img-main:url('./src/assets/background_dark.png');
+    --background-col:#101214;
+    --nav-link:#E7F9FF;
+    --nav-search:#E7F9FF;
+    --footer-tag:#F5CD47;
+    --text:#ffffff;
+    --back-district-col:#1D2125;
+    --district-txt:#F7F8F9;
+    --about-head:#ffffff;
+    --about-txt:#ffffff;
+    --background-hotel:#1D2125;
+    --back-banner-img-1:url('./src/assets/back_dark.png');
+    --back-banner-img-2:url('./src/assets/back_dark.png');
+    --back-error:url('./src/assets/back_dark_blur_w.png');
+    --table-head:#161A1D;
+    --table-data:#1D2125;
+    --button-col:#1C2B41;
+    --button-col-hover:#09326C;
+    --border-col:#38414A;
+    --form-col:#1D2125;
+    --form-fill-col:#101214;
+    --search-btn:#1D5D9B ;
+}

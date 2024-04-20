@@ -1,0 +1,36 @@
+.about
+{
+    background-image: var(--back-banner-img-2);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin: 2.5% 5%;
+    height: 375px;
+    width: 90%;
+    padding: 50px;
+    border-radius: 50px;
+}
+.about-txt
+{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.about-h
+{
+    font-size: 80px;
+    font-weight: 700;
+    font-family: "tilt neon";
+    text-align: center;
+    color:  var(--about-head);
+}
+.about-p
+{
+    font-size: 25px;
+    text-align: justify;
+    font-family: 'tilt neon';
+    font-weight: 500;
+    color: var(--about-txt);
+    margin: 0;
+}

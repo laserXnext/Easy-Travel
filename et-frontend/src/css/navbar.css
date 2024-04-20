@@ -1,0 +1,101 @@
+.nav 
+{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 50px;
+    background: var(--background-col);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 500;
+    z-index: 20;
+}
+.nav-item
+{
+    background-color:  var(--background-col);
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 5px 5px;
+    color: var(--nav-link);
+    margin: 0 10px;
+}
+.nav-item:hover
+{
+    color: var(--nav-link);
+    padding: 5px 5px;
+    border-bottom:3px solid var(--nav-link);
+    transition:linear;
+    cursor: var(--cursor-1);
+}
+.nav-logo
+{
+    display: flex;
+    width: 64px;
+    height: 64px;
+}
+.nav,.nav-links 
+{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    list-style: none;
+}
+
+.icon_1
+{
+    padding-right: 5px;
+}
+a 
+{
+    color: var(--nav-search);
+    text-decoration: none;
+}
+.search-icon 
+{
+    color:  var(--nav-search);
+    font-size: 20px;
+    cursor: pointer;
+}
+.search-box 
+{
+    position: absolute;
+    right:90px;
+    max-width: 300px;
+    width: 100%;
+    opacity: 0;
+    border-radius: 50px;
+    border: var(--nav-link) solid 3px;
+    pointer-events: none;
+    transition: all 0.2s linear;
+}
+.nav.openSearch .search-box 
+{
+    opacity: 1;
+    pointer-events: auto;
+}
+.search-box .search-icon 
+{
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    color: var(--nav-link);
+    transform: translateY(-50%);
+}
+.search-box input 
+{
+    height: 35px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    background-color: var(--background-nav);
+    color: var(--nav-link);
+    padding: 0 15px 0 45px;
+    transition: all 0.2s linear;
+}
+.navOpenBtn,
+.navCloseBtn 
+{
+    display: none;
+}

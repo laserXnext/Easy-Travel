@@ -1,0 +1,27 @@
+.admin
+{
+    margin: 2.5% 5%;
+    color:var(--text);
+    text-align: center;
+}
+.admin-h
+{
+    font-size: 80px;
+    font-weight: 700;
+    font-family: "great vibes",sans-serif;
+}
+.admin-p
+{
+    padding: 10px;
+    font-family: 'concert one',sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.admin-p1
+{
+    padding: 10px;
+    font-size: 25px;
+    font-family: 'tilt neon',sans-serif;
+    font-weight: 500;
+}

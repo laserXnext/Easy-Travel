@@ -1,0 +1,46 @@
+
+.banner
+{
+    background-image: var(--back-banner-img-1);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin: 2.5% 5%;
+    height: 375px;
+    width: 90%;
+    padding: 50px;
+    border-radius: 50px;
+    display: flex;
+}
+.banner-text
+{
+    margin: 0 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--text);
+
+}
+.banner h1
+{
+    font-size: 80px;
+    font-weight: 700;
+    font-family: "tilt neon";
+    margin: 0;
+}
+.banner p
+{
+
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0;
+}
+.banner-img
+{
+    height: 325px;
+    width: 325px;
+    position: relative;
+    border-radius: 25px;
+    top:-25px;
+}

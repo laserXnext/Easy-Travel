@@ -1,0 +1,122 @@
+.hotels
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+.hotel
+{
+    margin: 20px;
+    border: 5px solid var(--background-hotel);
+    background-color: var(--background-hotel);
+    border-radius: 20px;
+    width: 60%;
+    height:fit-content;
+    display: flex;
+    flex-direction: row;
+}
+
+.hotel:hover
+{
+    box-shadow: 0 0 2px var(--background-col);
+}
+
+.hotel-img
+{
+    width: 300px;
+    height:340px;
+    border-radius: 20px;
+    padding-right: 10px;
+}
+.hotel-info
+{
+    width:60%;
+    padding: 10px;
+    color: var(--text);
+    text-align: left;
+}
+.hotel-name
+{
+    font-size: 40px;
+    font-family: 'nunito sans',sans-serif;
+    padding-bottom: 10px;
+    
+}
+
+.details
+{
+    text-align: center;
+}
+.hotel-addr
+{
+    font-size: 22px;
+    padding-bottom: 10px;
+    font-family: 'tilt neon',sans-serif;
+}
+.ratings
+{
+    font-size: 25px;
+    padding-bottom: 10px;
+    font-family: 'tilt neon',sans-serif;
+}
+.ratings i
+{
+    font-size: 25px;
+    color: gold;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    font-family: 'tilt neon',sans-serif;
+}
+.hotel-price
+{
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-family: 'tilt neon',sans-serif;
+}
+.hotel-contact
+{
+    font-size: 20px;
+    font-family: 'tilt neon',sans-serif;
+    padding-bottom: 10px;
+}
+.hotel-available
+{
+    font-size: 20px;
+    font-family: 'tilt neon',sans-serif;
+    padding-bottom: 10px;
+}
+.hotel-a
+{
+    font-size: 20px;
+    font-family: 'tilt neon',sans-serif;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.hotel-website
+{
+    font-size: 25px;
+    font-family: 'tilt neon',sans-serif;
+    padding: 10px 0px;
+    text-align: center;
+    border-radius: 20px;
+    color: black;
+    background-color: darkorange;
+}
+.hotel-website:hover
+{
+    background-color: rgb(255, 230, 0);
+    cursor: var(--cursor-1);
+}
+
+.hotel-available .hotel-a[data-available="true"] 
+{
+    background-color: green;
+    color: white; 
+}
+
+.hotel-available .hotel-a[data-available="false"] 
+{
+    background-color: red; 
+    color: white; 
+}

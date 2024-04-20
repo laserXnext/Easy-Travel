@@ -1,0 +1,80 @@
+
+.toggle-container {
+    position: relative;
+    display: flex;
+    gap: 5px;
+  }
+
+  .toggle {
+    display: none;
+  }
+
+  .toggle+label:hover {
+    cursor: var(--cursor-1);
+  }
+
+
+  .toggle + label {
+    display: block;
+    width: 50px;
+    height: 25px;
+    background-color: #ccc;
+    border-radius: 25px;
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .toggle + label::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #fff;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 3px;
+    transition: left 0.3s ease;
+  }
+
+  .toggle:checked + label {
+    background-color: #333;
+  }
+
+  .toggle:checked + label::after {
+    left: calc(100% - 23px);
+  }
+
+  .toggle + label::before {
+    content: '';
+    position: absolute;
+    font-family: 'IcoMoon-Free';
+    font-size: 12px;
+    color: #fff; 
+    top: 50%;
+    left: 4px;
+    transform: translateY(-50%);
+  }
+  
+  .toggle:checked + label::before {
+    content: '';
+    position: absolute;
+    font-family: 'IcoMoon-Free';
+    font-size: 12px;
+    color: #000;
+    top: 50%;
+    left: 27px;
+    transform: translateY(-50%);
+  }
+  
+  .sun
+  {
+    font-size: 25px;
+    color: #F1F2F4;
+  }
+  .moon
+  {
+    font-size: 22px;
+    color: #101214;
+  }
